@@ -4,7 +4,7 @@
 }
 
 .cabecalho {
-    background-color: #FF76A8;
+    background-color: #FF8BE6;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -13,11 +13,38 @@
 }
 
 .cabecalho-imagem{
-    width: 18%;
+    width: 25%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 13px;
-    font-size: 27px;
+    margin: 0 15px;
+    font-size: 50px;
+}
+
+.escola-imagem{
+    width: 30%;
+}
+
+.escola{
+    background-image: linear-gradient(#FF8BE6,#FF8383);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.escola-div-conteudo{
+    width: 60%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.textos-sobre-a-loja{
+    width: 60%;
+    font-size: 18px;
 }
