@@ -9,17 +9,24 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px 0;
+    padding: 30px 0;
+    font-family: 'Mea Culpa', cursive;
 }
 
 .cabecalho-imagem{
-    width: 25%;
+    width: 26%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 15px;
-    font-size: 50px;
+    margin: 0 26px;
+    .mea-culpa-regular {
+        font-family: "Mea Culpa", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+    padding: 24px 0;
+    font-size: 150px;
 }
 
 .escola-imagem{
@@ -33,7 +40,7 @@
     justify-content: center;
     align-items: center;
     padding: 24px 0;
-    font-size: 18px;
+    font-size: 26px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -42,9 +49,31 @@
 }
 .escola-titulo{
     padding: 24px 0;
+    font-size: 40px;
 }
 
 .textos-sobre-a-loja{
-    width: 60%;
-    font-size: 18px;
+    font-family: 'Griffy', normal;
+    padding: 24px 0;
+    font-size: 30px;
+}
+.cabecalho-lista-item{
+    font-family: 'Mea Culpa', normal;
+}
+
+.estudante-titulo{
+    font-family: 'Faster One', normal;
+    padding: 24px 0;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-div{
+   text-align: center;
 }
