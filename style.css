@@ -63,17 +63,40 @@
 
 .estudante-titulo{
     font-family: 'Faster One', normal;
-    padding: 24px 0;
-    font-size: 40px;
+    padding: 20px 0;
+    font-size: 42px;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 .estudante-imagem{
-    width: 120px;
+    width: 150px;
 }
 
 .estudante-div{
    text-align: center;
+}
+
+.estudantes-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.estudante{
+    background-image: linear-gradient(#FF8383,#FF8BE6);
+}
+
+.rodape{
+    background-color: #FF8BE6;
+}
+
+.rodape-imagem{
+    padding: 6px;
+}
+
+.elementos-do-rodape{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
